@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.titulo{
+    color: #6c584c;
+    margin-left: 10px;
+    font-size: 35px;
+    font-family: 'Bungee Spice', cursive;
+} 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    background-color: black;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.containerheader{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo{
+    text-align: center;
+    align-items: baseline;
+    width: 60px;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    align-items: column;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+ul, nav{
+    padding: 0xp;
+    gap: 0px;
+    list-style: none;
+}
+
+
+.nav{
+    font-family: 'Carter One', cursive;
+    display: flex;
+}
+
+.nav li{
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+
+nav a{
+    width: 20%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.nav li a:hover{
+    transition: all 0.3s ease 0s;
+    color: white;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./img/reparando.jpg);
+    background-attachment: fixed;
+    background-position: 0px 0px; 
+    background-size: cover;
+    flex-direction: left;
+    justify-content: space-between;
+    align-items: left;
+    padding: 8vh;
+    flex-wrap: wrap;   
+}
+
+.titulo2{
+    font-family: 'Tilt Warp', cursive;
+    font-size: 55px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container p{
+    font-family: 'Oswald', sans-serif;
+    align-items: start; 
+    font-size: 30px;
+    color: white;
+}
+
+
+.negrita{
+    display: flex;
+    justify-content: left;
+    color: gold;
+    font-weight: bold;
+}
+
+
+
+br,span {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-image:url(./img/gradiante1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.presentadores{
+    display: inline-table;
+    box-shadow: 0 10px 30px 10px #111;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    margin: 30px;
+    border-style: solid;
+    background-color: #00296b;
+    border-width: 15px;
+    padding: 20px 30px; 
+    border-color: black;
+}
+
+.presentadores h3{
+    font-size: 30px;
+    font-family: 'Tilt Warp', sans-serif;
+}
+
+.foto-presentador{
+    border: solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+.presentadores h3{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.presentadores span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: gold;
+    font-weight: bold;
+}
+
+.presentadores p{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+    padding: none;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logo-footer{
+    width: 30px;
+    display: flex;
+
+}
+
+h4{
+    font-size: 30px;
+    margin: 20px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.derechos{
+    color: white;
+    text-align: end;
+    padding: 0px;
+}
+
+.titulo-footer{
+    font-size: 15px;
+    margin: 0px;
+    font-family: 'Bungee Spice', cursive;
+    
+}
+
+.logo-titulo{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: initial;
+
+}
+
+.icons{
+    list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.icons ul li{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    line-height: 48px;
+    margin: 0px 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 60px;
+    border: 2px solid rgb(255, 217, 0);
+    float: left;
+    transition: all 0.5 ease;
+    font-size: 20px;
+}
+
+
+.icons ul li:hover{
+    background-color:  white;
+    transition: all 0.5s ease;
+
+}
+
+.container2{
+    display: flex;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./img/consultas.jpg);
+    background-attachment: fixed;
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: left;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;  
+
+}
+
+form h2{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form1{
+    background: rgba(0,0,0,0.4);
+    margin: auto;
+    max-width: 400px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+input{
+    font-family: 'Rubik', sans-serif;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    box-shadow: 2px 2px 3px 2px #1b1b1b;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#button{
+    background-color: orange;
+    box-shadow: 2px 2px 3px 2px #1b1b1b;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#button:hover{
+    color: black;
+    background-color: rgb(189, 123, 0);
+}
+
+
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    height: 90.5vh;
+    background-image: url(./img/caba.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px 0px;
+    flex-direction: column;
+    padding: 50px;
+    margin: auto;
+}
+
+
+
+.container3 img{
+    display: flex;
+    width: 700px;
+    padding: 0px;
+    background: black;
+    max-width: 300px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.3)
+    )
+    ,url(./img/argentinaflag.png);
+    background-size: cover;
+    background-position: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.container3 h2{
+    font-family: 'Tilt Warp', cursive;
+    font-size: 60px;
+    margin-bottom: 30px;
+    border: solid 2px white;
+    padding: 30px;
+    border-radius: 100px;
+    color: white;
+}
+
+.container3 p{
+    color: white;
+    margin-top: 50px;
+    padding: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.form2{
+    background: rgba(0,0,0,0.4);
+    margin: auto;
+    max-width: 400px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.empresas-articulos{
+    text-align: center;
+    background-image: url(./img/degradado1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 91vh;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+
+}
+
+.empresas-articulos img{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./img/tecnologia.jpg);
+    background-size: cover;
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    height: 110vh;
+    box-sizing: border-box;
+}
+
+.container4 h2{
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    padding: 20px
+}
+
+.container4 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+
+
+.container4 input{
+    max-width: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container4 img{
+    width: 300px;
+    height: 300px;
+    border: 4px solid #461220;
+}
+
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    background-attachment: fixed;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    )
+    ,url(./img/calle.jpg);
+    background-size: cover;
+    
+}
+
+.tituloh2{
+    font-family: 'Kanit', sans-serif;
+    background: rgba(0,0,0,0.6);
+    font-size: 50px;
+    color: white;
+    padding: 15px;
+    margin-right: 40px;
+}
+
+.container5 img{
+    height: 240px;
+    box-shadow: 0 2px 5px 2px #111;
+}
+
+
+
+
+
+
+
+
